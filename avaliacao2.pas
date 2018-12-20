@@ -17,8 +17,10 @@ begin
     Prova3 := (prova3 * 5) / 10;
     media := prova1 + prova2 + prova3;
 
-    if media >= 6 then
+    if media >= 7 then
         write('Parabens voce foi APROVADO com media: ',media:6:2)
+    else if media >= 4 then
+        write('Voce esta em RECUPERACAO com media: ',media:6:2)
     else
         write('REPROVADO com media: ',media:6:2);
     readln();
